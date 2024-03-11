@@ -1,6 +1,6 @@
 import { createContext, useEffect, useRef, useState } from 'react'
 import './App.css'
-import Component1 from './components/propDrilling/Component1'
+import PropDrillingLv1 from './components/PropDrillingLv1'
 
 export const UserContext = createContext()
 
@@ -36,7 +36,7 @@ function App() {
       <h2>useContext example</h2>
       <UserContext.Provider value={user}>
         <p>{`Hello ${user}!`}</p>
-        <Component1 />
+        <PropDrillingLv1 />
       </UserContext.Provider>
       <hr />
 

@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
-import { UserContext } from '../../App'
+import { UserContext } from '../App'
 
-function Component3() {
+function PropDrillingLV3() {
   const user = useContext(UserContext)
 
   return (
@@ -9,4 +9,4 @@ function Component3() {
   )
 }
 
-export default Component3
+export default PropDrillingLV3
